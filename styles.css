@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6, p, span, q, dd {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(assets/background.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.app-badge-green {
+    background-color: #1DE9B6;
+}
+
+.app-info-icon {
+    display: block;
+    fill: #ffffff;
+}
+
+.app-description {
+    font-size: larger;
+}
