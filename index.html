@@ -17,19 +17,21 @@
 <div class="uk-container" uk-height-viewport>
     <div class="uk-margin-medium-top">
         <div class="uk-card uk-card-default uk-width-3-4@m uk-align-center">
-            <div class="uk-card-header">
-                <div class="uk-grid-small uk-flex-middle" uk-grid>
+            <div class="uk-card-header uk-padding">
+                <div class="uk-grid-small" uk-grid>
                     <div class="uk-width-auto">
                         <img class="uk-border-circle" width="120" height="120" src="assets/avatar.png">
                     </div>
                     <div class="uk-width-expand">
 
-                        <h3 class="uk-card-title uk-margin-remove-bottom">Joanna Małek</h3>
+                        <h1 class="uk-card-title uk-margin-remove-bottom">Joanna Małek</h1>
                         <p class="uk-text-meta uk-margin-remove-top">
                             UX/UI Designer
                         </p>
+                        <img src="assets/school.svg" alt="">
+                        <span class="uk-text-small"> Maria Curie-Skłodowska University, Lublin</span>
 
-                        <div class="uk-margin-top">
+                        <div class="uk-margin-top uk-margin-large-right">
                             <span class="uk-badge app-badge-green">Język Angielski - B2</span>
                             <span class="uk-badge app-badge-green">Jira</span>
                             <span class="uk-badge app-badge-green">Adobe CC</span>
@@ -40,21 +42,21 @@
                             <span class="uk-badge app-badge-green">User Centered Design</span>
                         </div>
                     </div>
-                    <div>
-                        <a class="uk-button app-info-icon uk-margin-small" onclick="UIkit.notification({message: 'Maria Curie-Skłodowska University, Lublin', status: 'success'})">
-                            <img src="assets/school.svg" alt="">
-                        </a>
-                        <a class="uk-button app-info-icon uk-margin-small" onclick="UIkit.notification({message: 'joanna.malek@gmail.com', status: 'success'})">
-                            <img src="assets/email.svg" alt="">
-                        </a>
-                        <a class="uk-button app-info-icon uk-margin-small" onclick="UIkit.notification({message: '+48 500 400 888', status: 'success'})">
-                            <img src="assets/phone.svg" alt="">
-                        </a>
-                    </div>
+                </div>
+                <div class="uk-position-right uk-margin">
+                    <a class="uk-button app-info-icon uk-margin-small" uk-tooltip="Lublin, Wieniawska 8">
+                        <img src="assets/home.svg" alt="">
+                    </a>
+                    <a class="uk-button app-info-icon uk-margin-small"  uk-tooltip="joanna.malek@gmail.com">
+                        <img src="assets/email.svg" alt="">
+                    </a>
+                    <a class="uk-button app-info-icon uk-margin-small"  uk-tooltip="+48 500 400 980">
+                        <img src="assets/phone.svg" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="uk-card-body"  uk-overflow-auto style="height: 300px;">
-                <div id="description">
+            <div class="uk-card-body uk-padding-large app-card-body" uk-overflow-auto>
+                <div>
                     <p class="app-description">
                         I am a good design enthusiast. As a recent graduate from university, with an honors degree in
                         Psychology, I held several internships within creative organizations. These internships enabled
@@ -81,7 +83,8 @@
                         </dd>
                         <dt>2016 - Internship as a Graphic Designer at RGB Printing House</dt>
                         <dd>
-                            Morbi sagittis in risus et congue. Mauris commodo leo lorem, nec malesuada erat consectetur aliquet.
+                            Morbi sagittis in risus et congue. Mauris commodo leo lorem, nec malesuada erat consectetur
+                            aliquet.
                         </dd>
                     </dl>
                 </div>
